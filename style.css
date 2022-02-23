@@ -1,0 +1,19 @@
+section{
+    display:flex;
+}
+.half-width{
+        width: 45%;
+}
+.tomato{
+    color: tomato;
+}
+.link-button{
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 10px 30px;
+    font-weight: 700;
+
+
+}
