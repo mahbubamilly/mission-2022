@@ -1,8 +1,35 @@
-section{
-    display:flex;
+body{
+    margin-top: 1%;
 }
+h1{
+    font-size: 45px ;
+    
+}
+
+section{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 2%;
+    display: flex;
+}
+.background{ 
+    background-image:url(images/shapes/bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Global{
+    background-image: url(images/shapes/shape-10.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .half-width{
-        width: 45%;
+        width: 40%;
+        float:center;
+        margin-left: 5%;
+        padding-right: 2%;
+        padding-left: 4%;
 }
 .tomato{
     color: tomato;
@@ -12,8 +39,42 @@ section{
     background-color: tomato;
     text-decoration: none;
     border-radius: 5%;
-    padding: 10px 30px;
-    font-weight: 700;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: small;
+    margin: 50px opx;
+}
+.block{
+    width: 20%;
+    border-radius: 10px;
+    margin: 1%;
+    padding-left: 1%;
+    display:inline-block;
+    justify-self: center;
 
+}
+p{
+    padding-bottom: 10px;
+    padding-right: 15%;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+#mission{
+    text-align: center;
 
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 10px 0px;
+}
+.half-width img{
+    max-width: 65%;
+    display: inline-block;
+    padding: 10px 0px 5px 3px;
+    margin-top: 2%;
+}
+.block img{
+    width: 80%;
 }
