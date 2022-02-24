@@ -1,5 +1,6 @@
 body{
     margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 45px ;
@@ -28,8 +29,8 @@ section{
         width: 40%;
         float:center;
         margin-left: 5%;
-        padding-right: 2%;
-        padding-left: 4%;
+        padding-right: 2px;
+        padding-left: 4px;
 }
 .tomato{
     color: tomato;
@@ -45,19 +46,43 @@ section{
     margin: 50px opx;
 }
 .block{
-    width: 20%;
-    border-radius: 10px;
-    margin: 1%;
-    padding-left: 1%;
-    display:inline-block;
+    width: 30%;
+    border-radius: 25px;
+    margin: 2%;
+    padding: opx 70px;
+    display: inline-block;
     justify-self: center;
-
+    color: #0f0e0ebb;
+    box-sizing: border-box;
+    height: 375px;
+}
+.block h4{
+    font-weight: 900px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#div-baby1{
+    background-color:rgb(185, 234, 250);
+    padding-left: 35px;
+    margin-left: 120px;
+}
+#div-baby2{
+    background-color:#f5b399;
+    padding-left: 35px;
+    margin-left: 2px;
+}
+#div-baby3{
+    background-color:hsl(120, 86%, 81%);
+    padding-left: 35px;
+    margin-left: 2px;
+    margin-right: 160px;
 }
 p{
     padding-bottom: 10px;
     padding-right: 15%;
     text-align: justify;
     margin-bottom: 10%;
+    font-size: small;
 }
 #mission{
     text-align: center;
