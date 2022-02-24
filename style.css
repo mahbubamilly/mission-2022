@@ -63,6 +63,12 @@ p{
     text-align: center;
 
 }
+#focused{
+    border-left: 3px solid;
+    border-color: #fd5639;
+    border-image-slice: 1;
+    padding-left: 10px;
+}
 footer{
     background-color: black;
     text-align: center;
